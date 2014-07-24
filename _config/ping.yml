@@ -1,0 +1,11 @@
+---
+Name: ping
+---
+Ping:
+  enabled: true
+SiteTree:
+  extensions:
+    - Ping
+SiteConfig:
+  extensions:
+    - PingConfig
