@@ -1,15 +1,15 @@
 {
-	  "name": "WeAreKnit/silverstripe-blog-ping",
+	  "name": "weareknit/silverstripe-blog-ping",
 	  "description": "Post a ping to web services letting them know your website has been updated.",
 	  "type": "silverstripe-module",
-	  "homepage": "http://github.com/WeAreKnit/silverstripe-blog-ping",
+	  "homepage": "http://github.com/weareknit/silverstripe-blog-ping",
 	  "keywords": ["silverstripe", "blog-ping", "pingomatic", "ping-blog"],
 	  "license": "BSD-3-Clause",
 	  "authors": [
 	    {"name": "Robert Mehew","email": "rob.mehew@weareknit.co.uk"}
 	  ],
 	  "support": {
-	    "issues": "http://github.com/WeAreKnit/silverstripe-blog-ping/issues"
+	    "issues": "http://github.com/weareknit/silverstripe-blog-ping/issues"
 	  },
 	  "require": {
 	    "silverstripe/cms": "~3.0",
