@@ -41,7 +41,7 @@ class Ping extends SiteTreeExtension {
     * Uses @webPingXML
     * Uses @doWebPing
     */
-    public function onAfterPublish($original)
+    public function onAfterPublish(&$original)
     {
         // Get the XML to post
         $postString     = $this->webPingXML($original);
@@ -73,7 +73,7 @@ class Ping extends SiteTreeExtension {
             }
         }
     
-		parent::onAfterPublish($original);
+		parent::onAfterPublish(&$original);
     }
     
     /**
